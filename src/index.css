@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-my {
+  background-color: #d54215;
+}
+.bg-secondary-new {
+  background-color: #f8f6f2;
+}
+
+.container-make {
+  @apply max-w-screen-2xl w-full mx-auto;
+}
+.active {
+  color: #d54215;
+  font-weight: 700;
+}
+.inactive {
+  color: black;
+}
+.my-btn {
+  @apply py-2 w-full text-base px-4 bg-my text-white font-semibold rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75;
+}
